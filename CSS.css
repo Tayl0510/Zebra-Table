@@ -1,0 +1,39 @@
+
+table {
+    overflow: hidden;
+    width: 80%;
+    min-width: 600px;
+    max-width: 1500px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+caption {
+    font-size: 3rem;;
+    background-color: #FFC5FF;
+}
+th {
+    background-color: #E3AFE3;
+}
+td, th {
+    position: relative;
+    height: 4.5rem;
+    width:10rem;
+    border:2px solid #947294;
+}
+tr:nth-child(even){
+    background-color:;
+}
+tr:hover{
+    background-color:#FFEBFF;
+}
+td:hover:after,
+th:hover:after {
+    content: "";
+    position: absolute;
+    background-color: #FFEBFF;
+    left: 0;
+    top: -5000px;
+    height: 10000px;
+    width: 100%;
+    z-index: -1;
+}
